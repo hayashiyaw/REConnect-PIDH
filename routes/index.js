@@ -7,4 +7,24 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: '' });
 });
 
+router.get('/contato', (req, res, next) =>{
+  res.render('contato', { title: '' });
+});
+
+router.get('/login', (req,res, next)=>{
+  res.render('login', { title: '' });
+});
+
+router.get('/about', (req,res, next)=>{
+  res.render('about', { title: '' });
+});
+
+router.get('/faq', (req,res, next)=>{
+  res.render('faq', { title: '' });
+});
+
+router.get('/cadastro', (req, res, next)=>{
+  res.render('cadastro', { title:''});
+})
+
 module.exports = router;
