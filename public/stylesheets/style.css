@@ -375,11 +375,18 @@ main section div.pess p{
     background-color: rgb(104, 168, 252);
 }
 
+
+
 main .contato, .cadastro{
     display: flex;
     align-items:center;
     justify-content: center;
     width:100%;
+}
+
+main .cadastro form{
+    display: flex;
+    flex-direction: column;
 }
 
 main section.contato div{
@@ -436,18 +443,37 @@ main .log{
     justify-content: center;
 }
 
+main .main-teste{
+    display: flex;
+    width: 100%;
+}
+
+main .imagens-login{
+    width: 120vh;
+    height: 100vh;
+    background-image: url(../images/login-1.png);
+}
+
 main .pagina-login{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70vh;
-    margin-right: 35px;
+    width: 100vh;
+    height: 100vh;
+    color:black;
 }
 
 main .pagina-login img{
     width: 100px;
     margin-top: 30px;
     margin-bottom: 40px;
+}
+
+main .pagina-login form{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button{
@@ -465,6 +491,3 @@ label, input{
     color: black;
 }
 
-form{
-    width:40%;
-}
