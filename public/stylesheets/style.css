@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  color: black;
 }
 
 body{
@@ -65,6 +66,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
 header nav ul {
@@ -83,6 +85,7 @@ header nav ul li a:any-link {
     display: inline-block;
     padding: 10px;
 }
+
 
 section.banner p {
     width: 500px;
@@ -298,9 +301,7 @@ section.section-padrao p {
 
 
 /* Adicionando do projeto antigo */
-*{
-    font-family: arial,sans-serif;
-}
+
 
 main{
     display: flex;
@@ -474,6 +475,32 @@ main .pagina-login form{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.centro-home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filme{
+    display: flex;
+    margin-top:0;
+    border: 1px solid;
+
+}
+
+.filme img{
+    width: 20vh;
+    height: 20vh;
+}
+
+.estrelas{
+    border: 1px solid;
+
+}
+
+.em-alta{
+    border: 1px solid;
 }
 
 button{

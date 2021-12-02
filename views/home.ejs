@@ -1,54 +1,69 @@
-<%- include('./partials/head') %>
-<%- include('./partials/header') %>
-    <main>
-        <section class="esquerda">
-            <div class="suas-series">
-                <h1>Sua Lista</h1>
-                <div class="caixas">
-                    <div class="series">
-                        <p>Série 1</p>
-                    </div>
-                    <div class="series">
-                        <p>Série 2</p>
-                    </div>
-                    <div class="series">
-                        <p>Série 3</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="estatisticas">
-                <h1>Estatísticas</h1>
-            </div>
-            
-        </section>
-        <section class="centro">
-            <h1>Home</h1>
-        </section>
-        <section class="direita">
-            <div class="recomendacoes">
-                <h1>Recomendações</h1>
-                <div class="caixas">
-                    <div class="series">
-                        <p>Recomendações 1</p>
-                    </div>
-                    <div class="series">
-                        <p>Recomendações 2</p>
-                    </div>
-                    <div class="series">
-                        <p>Recomendações 3</p>
-                    </div>
-                </div>
-            </div>
-            <class class="pessoas">
-                <h1>Pessoas</h1>
-                <div class="pess">
-                        <p>P1</p>
-                        <p>P2</p>
-                        <p>P3</p>
-                        <p>P4</p>                       
-                    </div>
-                </class>
-        </section>
-    </main>
-    <%- include('./partials/footer') %>
+<%- include('./partials/head') %> <%- include('./partials/header') %>
+<main>
+  <section class="esquerda">
+    <div class="suas-series">
+      <h1>Sua Lista</h1>
+      <div class="caixas">
+        <div class="series">
+          <p>Série 1</p>
+        </div>
+        <div class="series">
+          <p>Série 2</p>
+        </div>
+        <div class="series">
+          <p>Série 3</p>
+        </div>
+      </div>
+    </div>
+    <div class="estatisticas">
+      <h1>Estatísticas</h1>
+    </div>
+  </section>
+  <section class="centro-home">
+    <div class="filme">
+        <img src="/images/starwarsruim.jpg" alt="">
+        <div class="movie">
+            <h2>Title film</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga cumque, reprehenderit distinctio, enim non, aliquam a sint eaque suscipit nobis neque unde vitae? Non tempore dolore ab vitae suscipit!</p>    
+        </div>
+        <img src="/images/trailer.png" alt="">
+        </div>
+    <div class="estrelas">
+        <img src="/images/perfil.png" alt="Perfil">
+        <p>fulano deu 5 estrelas</p>
+        <img src="/images/starwarsbom.png" alt="">
+        <p>"Excelente filme, super recomendo, melhor filme</p>
+        <a href="">Adicionar a minha lista</a>
+    </div>
+    <div class="em-alta">
+        <h2>em alta</h2>
+        <img src="/images/senhor.png" alt="">
+    </div>
+  </section>
+  <section class="direita">
+    <div class="recomendacoes">
+      <h1>Recomendações</h1>
+      <div class="caixas">
+        <div class="series">
+          <p>Recomendações 1</p>
+        </div>
+        <div class="series">
+          <p>Recomendações 2</p>
+        </div>
+        <div class="series">
+          <p>Recomendações 3</p>
+        </div>
+      </div>
+    </div>
+    <class class="pessoas">
+      <h1>Pessoas</h1>
+      <div class="pess">
+        <p>P1</p>
+        <p>P2</p>
+        <p>P3</p>
+        <p>P4</p>
+      </div>
+    </class>
+  </section>
+</main>
+<%- include('./partials/footer') %>
