@@ -35,4 +35,8 @@ router.get('/profile', (req, res, next) =>{
   res.render('profile', { title: ''});
 });
 
+router.get('/criar', (req, res, next) =>{
+  res.render('criar', { title: ''});
+});
+
 module.exports = router;

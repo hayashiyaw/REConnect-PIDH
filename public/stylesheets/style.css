@@ -311,12 +311,12 @@ main{
 }
 
 main section.esquerda, .direita{
-    background: rgb(248, 246, 246);
+    background: rgb(238, 229, 229);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 40vh;
-    height: 100vh;
+    height: 150vh;
     font-size: 10px;
 }
 
@@ -325,7 +325,7 @@ main section div.suas-series, .recomendacoes, .pessoas, .estatisticas{
     align-items: center;
     flex-direction: column;
     border: 1px solid;
-    height: 50vh;
+    height: 250vh;
 }
 
 main section.centro{
@@ -490,8 +490,8 @@ main .pagina-login form{
 }
 
 .filme img{
-    width: 20vh;
-    height: 20vh;
+    width: 30vh;
+    height: 30vh;
 }
 
 .estrelas{
@@ -502,6 +502,14 @@ main .pagina-login form{
 .em-alta{
     border: 1px solid;
 }
+
+.centro-about{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
 
 button{
     width: 100px;
