@@ -39,4 +39,8 @@ router.get('/criar', (req, res, next) =>{
   res.render('criar', { title: ''});
 });
 
+router.get('/pagina-filme', (req, res, next) =>{
+  res.render('pagina-filme', { title: ''});
+})
+
 module.exports = router;

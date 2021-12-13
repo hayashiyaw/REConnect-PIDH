@@ -1,64 +1,38 @@
-<%- include('./partials/head') %>
-<%- include('./partials/header') %>
-    <main>
-        <section class="esquerda">
-            <div class="suas-series">
-                <h1>Sua Lista</h1>
-                <div class="caixas">
-                    <div class="series">
-                        <p>Série 1</p>
-                    </div>
-                    <div class="series">
-                        <p>Série 2</p>
-                    </div>
-                    <div class="series">
-                        <p>Série 3</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="estatisticas">
-                <h1>Estatísticas</h1>
-            </div>
-            
-        </section>
-        <section class="centro">
-            <h1>Lista de Posts</h1>
-            <div class='perfil'>
-                <img src="/images/perfil.png" alt="">
-                <p>Seguidores</p>
-                <p>Seguindo</p>
-            </div>
-            <div class='lista'>
-                <h2>Minha lista</h2>                
-            </div>
-        </section>
+<%- include('./partials/head') %> <%- include('./partials/header') %>
+<main>
+  <section class="centro">
+    <h1>Lista de Posts</h1>
+    <div>
+      <h2>Meus posts</h2>
+      <p>fulano deu 5 estrelas</p>
+      <img src="/images/starwarsbom.png" alt="" />
+      <p>"Excelente filme, super recomendo, melhor filme</p>
+    </div>
+    <div class="lista">
+      <h2>Minha lista</h2>
+      <img src="/images/em-alta-aranhaverso.jpeg" alt="" />
+      <img src="/images/em-alta-caca-fantasma.jpeg" alt="" />
+      <img src="/images/em-alta-duna.jpeg" alt="" />
+      <img src="/images/em-alta-eternos.jpeg" alt="" />
+    </div>
+    <div>
+      <h2>Recomendações</h2>
 
-        <section class="direita">
-            <div class="recomendacoes">
-                <h1>Recomendações</h1>
-                <div class="caixas">
-                    <div class="series">
-                        <p>Recomendações 1</p>
-                    </div>
-                    <div class="series">
-                        <p>Recomendações 2</p>
-                    </div>
-                    <div class="series">
-                        <p>Recomendações 3</p>
-                    </div>
-                </div>
-            </div>
-            <class class="pessoas">
-                <h1>Pessoas</h1>
-                <div class="pess">
-                        <p>P1</p>
-                        <p>P2</p>
-                        <p>P3</p>
-                        <p>P4</p>                       
-                    </div>
-                </class>
-        </section>
-    </main>
-    
-    <%- include('./partials/footer') %>
+      <img src="/images/em-alta-venon.jpeg" alt="" />
+
+      <img src="/images/em-alta-aranhaverso.jpeg" alt="" />
+
+      <img src="/images/em-alta-homem-aranha.jpeg" alt="" />
+    </div>
+    <div>
+      <h2>Seguidores</h2>
+
+      <img src="/images/avatar-1.jpeg" alt="" />
+      <img src="/images/avatar-2.png" alt="" />
+      <img src="/images/avatar-3.jpeg" alt="" />
+      <img src="/images/avatar-4.jpg" alt="" />
+    </div>
+  </section>
+</main>
+
+<%- include('./partials/footer') %>
