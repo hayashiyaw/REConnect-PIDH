@@ -491,8 +491,34 @@ main .pagina-login form{
 }
 
 .estrelas{
+    display: flex;
+    flex-direction: column;
     border: 1px solid;
+}
 
+.post{
+    display: flex;
+}
+
+.filme-img{
+    width:40vh;
+}
+
+.post-sw{
+    display: flex;
+}
+
+.estrelas .avatar{
+    width: 20vh;
+}
+
+.estrela-img{
+    width: 5vh;
+    height: 5vh;
+}
+
+.seguidores img{
+    width: 50vh;
 }
 
 .em-alta{
