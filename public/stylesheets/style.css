@@ -59,7 +59,7 @@ a.btn.btn-primary {
 header {
     width: 100%;
     background-color: #1C3EB7;
-    padding: .75rem;
+    padding: .60rem;
 }
 
 header .container {
@@ -150,7 +150,7 @@ section.sobre .text p {
 
 footer {
     background-color: #1C3EB7;
-    padding: .75rem;
+    padding: .30rem;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -498,10 +498,10 @@ main .pagina-login form{
 .estrelas{
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
-.post, .post-sw{
+.post, .post-sw, .posts{
     display: flex;
 }
 
@@ -526,6 +526,27 @@ main .pagina-login form{
     display:flex;
     flex-direction: column;
 
+}
+
+.section-estatisticas h1{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.div-estatisticas{
+    display: flex;
+}
+
+.estat-filmes{
+    margin-left: 200px;
+}
+
+.estat-filmes img, .estat-series img{
+    width: 30vh;
+}
+
+.estat-series{
+    margin-left: 200px;
 }
 
 button{
