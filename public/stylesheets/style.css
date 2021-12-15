@@ -505,6 +505,10 @@ main .pagina-login form{
     display: flex;
 }
 
+.post-sw img{
+    width: 200px;
+}
+
 .filme-img{
     width:40vh;
 }
