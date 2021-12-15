@@ -45,6 +45,14 @@ router.get('/pagina-filme', (req, res, next) =>{
 
 router.get('/sua-lista', (req, res, next) =>{
   res.render('sua-lista', { title: ''});
+});
+
+router.get('/recomendacoes', (req, res, next) =>{
+  res.render('recomendacoes', { title: ''});
+});
+
+router.get('/estatisticas', (req, res, next) =>{
+  res.render('estatisticas', { title: ''});
 })
 
 module.exports = router;
